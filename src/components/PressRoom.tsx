@@ -137,17 +137,8 @@ import Press4 from "@/assets/press4.png";
 import Press5 from "@/assets/press5.png";
 import Press6 from "@/assets/press6.png";
 
-interface Article {
-  id: number;
-  title: string;
-  description: string;
-  author: string;
-  date: string;
-  image: any;
-  slug: string;
-}
 
-const articles: Article[] = [
+const articles = [
   {
     id: 1,
     title: "Nurturing young talents",
@@ -200,7 +191,7 @@ const articles: Article[] = [
   },
   {
     id: 6,
-    title: "Get kids to love the good ol' goalies like the old days",
+    title: "Get kids to love the good ol&#39; goalies like the old days",
     description:
       "Gone are the days when kids aspired to be Schmeichels and Van der Sars, is there hope for a seemingly withering profession?",
     author: "Natali Craig",

@@ -2,19 +2,10 @@ import React from 'react'
 import Ambassador1 from '@/assets/ambassador1.png';
 import Ambassador2 from '@/assets/ambassador2.png';
 import Image from 'next/image';
-import { a } from 'framer-motion/client';
 
 
 
-interface Ambassador {
-    id: number
-    name: string
-    role: string
-    image: any
-    description: string
-}
-
-const ambassadors: Ambassador[] = [
+const ambassadors = [
     {
         id: 1,
         name: "Andre Smith",

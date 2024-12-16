@@ -106,7 +106,7 @@ export default function AboutSection() {
                     <p className="text-gray-700 mb-6 text-sm leading-relaxed">
                         The Home of Grassroots Football & Social Media, One Touch Football
                         is a football-first, social media app specifically developed for the
-                        grassroots community. Whether you're a player, a team, or simply a
+                        grassroots community. Whether you&apos;re a player, a team, or simply a
                         passionate fan, this inclusive and accessible app offers a wide
                         range of features designed to connect you with your football
                         community.

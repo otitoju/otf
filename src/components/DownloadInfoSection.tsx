@@ -144,9 +144,6 @@
 'use client'
 
 import Image from "next/image"
-import Link from "next/link"
-import { Star } from 'lucide-react'
-import { Card } from "@/components/ui/card"
 import {
   Carousel,
   CarouselContent,
@@ -159,14 +156,7 @@ import Playstore from '@/assets/playstore.png'
 import Appstore from '@/assets/apple-store.png'
 import Uniform from '@/assets/uniform.png'
 
-interface Feature {
-  id: number
-  title: string
-  description: string
-  image: any
-}
-
-const features: Feature[] = [
+const features = [
   {
     id: 1,
     title: "Player profile",

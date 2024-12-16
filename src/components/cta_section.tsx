@@ -96,20 +96,11 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel"
 import PP from '@/assets/pp.png'
 
-interface Testimonial {
-  id: number
-  quote: string
-  author: string
-  role: string
-  image: any
-}
 
-const testimonials: Testimonial[] = [
+const testimonials = [
   {
     id: 1,
     quote: "The ultimate football social media experience any fan could be part of!",
@@ -158,7 +149,7 @@ export function CTASection() {
                 <CarouselItem key={testimonial.id} className="p-4">
                   <blockquote className="space-y-6 text-center">
                     <p className="text-xl md:text-2xl font-medium leading-relaxed">
-                      "{testimonial.quote}"
+                      {testimonial.quote}
                     </p>
                     <div className="flex items-center justify-center gap-4">
                       <Image

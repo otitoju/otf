@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Logo from '@/assets/logo.png'
 import SmartPhone from '@/assets/smartphone.png'
 import Playstore from '@/assets/playstore.png'
@@ -14,7 +13,7 @@ export default function GamePromoSection() {
                     <span className="text-pink-600">Level</span> Up Your Game!
                 </h1>
                 <p className="text-gray-600 leading-relaxed max-w-3xl mx-auto text-sm">
-                    From community leagues to aspiring pros, we’re here to support every
+                    From community leagues to aspiring pros, we&apos;re here to support every
                     step of your football journey. Connect with scouts, find tournaments,
                     track your progress, and be part of a network that celebrates the
                     spirit of grassroots football.

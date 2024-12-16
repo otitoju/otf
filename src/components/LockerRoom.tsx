@@ -1,19 +1,13 @@
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight } from 'lucide-react'
-import { Card, CardContent } from "@/components/ui/card"
 import MaleFootballer from "@/assets/male-football-players.png";
 import Everything from '@/assets/everything-you.png';
 import BoyTeen from '@/assets/boy-teenager.png'
 import Fans from '@/assets/group-of-passionate-sports-fans.png'
 
-interface FeatureLink {
-  title: string
-  image: any
-  href: string
-}
 
-const features: FeatureLink[] = [
+const features = [
   {
     title: "Exclusive player interviews",
     image: Everything,
@@ -51,7 +45,7 @@ export function LockerRoom() {
           </div>
           <div className="space-y-4">
             <h3 className="text-2xl font-semibold">
-              Get exclusive behind the scenes access to what we're doing in the Grassroot space
+              Get exclusive behind the scenes access to what we&apos;re doing in the Grassroot space
             </h3>
             <p className="text-muted-foreground">
               The Player Profile feature offers a dedicated space for players to showcase their skills,
