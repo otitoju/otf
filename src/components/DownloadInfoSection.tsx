@@ -222,7 +222,7 @@ function DownloadAppSection() {
     return (
       <div className="space-y-4">
         {/* Heading */}
-        <h3 className="text-4xl font-semibold text-gray-800">Download the App,<br/> Dominate the Pitch!</h3>
+        <h3 className="text-2xl md:text-4xl font-semibold text-gray-800">Download the App,<br/> Dominate the Pitch!</h3>
   
         {/* Buttons */}
         <div className="flex space-x-4">

@@ -44,10 +44,10 @@ export function LockerRoom() {
             />
           </div>
           <div className="space-y-4">
-            <h3 className="text-2xl font-semibold">
+            <h3 className="text-xl md:text-2xl font-semibold">
               Get exclusive behind the scenes access to what we&apos;re doing in the Grassroot space
             </h3>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-sm">
               The Player Profile feature offers a dedicated space for players to showcase their skills,
               achievements, and journey in football. Each profile includes essential details like position,
               playing history, and performance stats.

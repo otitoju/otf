@@ -7,7 +7,7 @@ import Appstore from '@/assets/apple-store.png'
 
 export default function GamePromoSection() {
     return (
-        <div className="py-6 px-4 md:py-24">
+        <div className="py-16 px-4 md:py-24">
             <div className="container mx-auto text-center mb-8">
                 <h1 className="text-3xl md:text-5xl font-bold mb-4">
                     <span className="text-pink-600">Level</span> Up Your Game!

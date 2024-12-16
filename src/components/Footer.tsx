@@ -53,7 +53,7 @@ export function SiteFooter() {
                                 <li key={link.href}>
                                     <Link
                                         href={link.href}
-                                        className="text-white/80 hover:text-white transition-colors"
+                                        className="text-white/80 hover:text-white transition-colors text-sm"
                                     >
                                         {link.label}
                                     </Link>
@@ -69,7 +69,7 @@ export function SiteFooter() {
                                 <li key={link.href}>
                                     <Link
                                         href={link.href}
-                                        className="text-white/80 hover:text-white transition-colors"
+                                        className="text-white/80 hover:text-white transition-colors text-sm"
                                     >
                                         {link.label}
                                     </Link>
@@ -85,7 +85,7 @@ export function SiteFooter() {
                                 <li key={link.href}>
                                     <Link
                                         href={link.href}
-                                        className="text-white/80 hover:text-white transition-colors"
+                                        className="text-white/80 hover:text-white transition-colors text-sm"
                                     >
                                         {link.label}
                                     </Link>
@@ -95,7 +95,7 @@ export function SiteFooter() {
                     </div>
                 </div>
 
-                <div className="pt-8 text-center text-white/60">
+                <div className="pt-8 text-center text-white/60 text-sm">
                     Copyright. One touch football 2024
                 </div>
             </div>

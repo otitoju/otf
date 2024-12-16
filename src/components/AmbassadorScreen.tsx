@@ -49,7 +49,7 @@ export default function AmbassadorScreen() {
                                     className="w-1/3 object-cover"
                                 />
                                 <div className="p-6">
-                                    <p className="text-gray-600 text-sm mb-4">
+                                    <p className="text-gray-600 text-[12px] md:text-sm mb-4">
                                         {ambassador.description}
                                     </p>
                                     <h3 className="font-bold text-gray-900">{ambassador.name}</h3>

@@ -50,7 +50,7 @@ export function WaitlistSection() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="flex-1"
+                className="flex-1 placeholder:text-muted-foreground placeholder:text-sm text-sm py-3 px-3 rounded-md border border-input bg-transparent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm" 
               />
               <Button type="submit" className="bg-emerald-400 hover:bg-emerald-500 text-black font-semibold px-8">
                 Subscribe

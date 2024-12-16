@@ -118,10 +118,10 @@ export function CTASection() {
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center gap-12">
         {/* Text Section */}
         <div className="space-y-6 text-center lg:text-left lg:max-w-[50%]">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">
             Ready to get started?
           </h2>
-          <p className="text-white/80 leading-relaxed">
+          <p className="text-white/80 leading-relaxed text-sm md:text-lg">
             Lorem ipsum dolor sit amet consectetur. Imperdiet faucibus et in sed nibh scelerisque odio. Vel volutpat diam posuere mauris tristique dui amet.
           </p>
           <div className="flex flex-wrap justify-center lg:justify-start gap-4">
@@ -148,7 +148,7 @@ export function CTASection() {
               {testimonials.map((testimonial) => (
                 <CarouselItem key={testimonial.id} className="p-4">
                   <blockquote className="space-y-6 text-center">
-                    <p className="text-xl md:text-2xl font-medium leading-relaxed">
+                    <p className="text-sm md:text-2xl font-medium leading-relaxed">
                       {testimonial.quote}
                     </p>
                     <div className="flex items-center justify-center gap-4">
